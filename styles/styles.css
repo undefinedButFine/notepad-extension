@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    min-width: 300px;
+    min-height: 100px;
+    border: 2px solid rgb(55, 55, 133);
+    background-color: rgb(31, 31, 80);
+}
+
+/*Global*/
+h1 {
+    margin: 0;
+    padding: 5px 0px 5px 0px;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+/*Classes*/
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(247, 241, 234);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 5px 0px 0px 0px;
+}
+
+/*ID Elements*/
+#input-Text {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin: 3px auto 3px auto;
+    padding: 2px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    width: 50%;
+}
+
+#input-Btn {
+    margin: 3px auto 3px auto;
+    padding: 2px;
+    background-color: rgb(70, 70, 185);
+    border: none;
+    border-radius: 2px;
+    color: rgb(247, 241, 234);
+    width: 30%;
+}
+
+#input-Text:focus, #input-Text:hover, #input-Btn:hover {
+    box-shadow: 0 0 0 2px #9382f3;
+}
+
+#notesEl {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0 5px 0 5px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    color: rgb(247, 241, 234);
+    word-break: break-all;
+}
+
